@@ -12,11 +12,11 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "anujp79")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Blacklover_uff")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "Monsterbot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "MKNSTER BOT")
+BOT_NAME = getenv("BOT_NAME", "SaikoBoy")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "MONSTER_BOT")
 EVALOP = list(map(int, getenv("EVALOP", "6943682712").split()))
@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002108904207)
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002108904207))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "6943682712"))
