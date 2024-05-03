@@ -133,7 +133,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 """,
 reply_markup=InlineKeyboardMarkup(
 [
-[InlineKeyboardButton(f"ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/mannu_music_bot?startgroup=new"),
+[InlineKeyboardButton(f"ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/MusicScam_Black_Bot?startgroup=new"),
 ]
 ]
 ))
