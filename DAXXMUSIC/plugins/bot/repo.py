@@ -6,9 +6,9 @@ from config import BOT_USERNAME
 start_txt = """
 ✦ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !
 
-❅ ɪ ᴀᴍ ๛𝗠𝗔𝗡𝗡𝗨𝗠𝗨𝗦𝗜𝗖 ༗ ᴍ ᴜ s ɪ ᴄ
+❅ ɪ ᴀᴍ ๛ʙʟᴀᴄᴋʟᴏᴠᴇʀ ᴍᴜsɪᴄ ༗ ᴍ ᴜ s ɪ ᴄ
 
-❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛𝗠𝗔𝗡𝗡𝗨𝗠𝗨𝗦𝗜𝗖 ༗ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.
+❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ʙʟᴀᴄᴋʟᴏᴠᴇʀ ᴍᴜsɪᴄ ༗ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.
 """
 
 
@@ -18,15 +18,15 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/monstarlove"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://t.me/monstarqueen"),
+          InlineKeyboardButton("🏝sᴜᴘᴘᴏʀᴛ🏝", url="https://t.me/SSC_MAKER_QUIZ"),
+          InlineKeyboardButton("🏡ʀᴇᴘᴏ🏡", url="https://t.me/BlackMusicSupport"),
           ],
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/8bc05d47bec1beaa095b6.jpg",
+        photo="https://telegra.ph/file/c752663369c7161426044.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )

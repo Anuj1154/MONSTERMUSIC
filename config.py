@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "anujp79")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Blacklover_uff")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "Monsterbot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "MKNSTER BOT")
+BOT_NAME = getenv("BOT_NAME", "SaikoBoy")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "MONSTER_BOT")
-EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
+EVALOP = list(map(int, getenv("EVALOP", "6943682712").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001929735324"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002108904207"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6195725562"))
+OWNER_ID = int(getenv("OWNER_ID", "6943682712"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Anuj1154/ROYMUSIC",
+    "https://github.com/BLACKLOVER15/SaikoMusic2.0",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/monstarqueen")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/monstarlove")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BlackMusicSupport")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MDCLASSES_OFFICIAL")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,7 +78,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
+# Ge@BlackLoverStringSeassion_bot session from @BlackLoverStringSeassion_bot
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -95,10 +95,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ca224113f1472fdfa7cd8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/8bc05d47bec1beaa095b6.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/ca224113f1472fdfa7cd8.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/8bc05d47bec1beaa095b6.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/8bc05d47bec1beaa095b6.jpg"

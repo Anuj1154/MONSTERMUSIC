@@ -4,17 +4,17 @@ from DAXXMUSIC import app
 from pyrogram.types import InputMediaPhoto
 
 
-@app.on_message(filters.command(["tgm" , "tm"]))
+@app.on_message(filters.command(["tgm" , "link"]))
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
-        i = message.reply("๏ ᴍᴀᴋᴇ ᴀ ʟɪɴᴋ...")
+        i = message.reply("๏ ʟɪɴᴋ ᴏɴ ᴛʜᴇ ᴡᴀʏ ʙʏ ʙʟᴀᴄᴋʟᴏᴠᴇʀ🎌...")
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
             url = "https://telegra.ph" + x
 
-        i.edit(f'๏ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛𝗠𝗔𝗡𝗡𝗨𝗠𝗨𝗦𝗜𝗖࿐')
+        i.edit(f'๏ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ʙʟᴀᴄᴋʟᴏᴠᴇʀ ᴍᴜsɪᴄ࿐')
 
 ########____________________________________________________________######
 
@@ -22,11 +22,11 @@ def ul(_, message):
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
-        i = message.reply("๏ ᴍᴀᴋᴇ ᴀ ʟɪɴᴋ...")
+        i = message.reply("๏ ʟɪɴᴋ ᴏɴ ᴛʜᴇ ᴡᴀʏ ʙʏ ʙʟᴀᴄᴋʟᴏᴠᴇʀ🎌...")
         path = reply.download()
         fk = upload_file(path)
         for x in fk:
             url = "https://graph.org" + x
 
-        i.edit(f'๏ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛𝗠𝗔𝗡𝗡𝗨𝗠𝗨𝗦𝗜𝗖࿐')
+        i.edit(f'๏ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➠ {url}\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ʙʟᴀᴄᴋʟᴏᴠᴇʀ ᴍᴜsɪᴄ࿐')
 
